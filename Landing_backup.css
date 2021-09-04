@@ -1,0 +1,191 @@
+*{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background: #252c3a;
+    background-position: center;
+    /*background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)
+    ),url('dark-1852985_1920.jpg');*/
+}
+
+.navbar{
+    width: 92.3%;
+    margin: auto;
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+   
+}
+
+
+
+.navbar ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    position: relative;
+    
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li ::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0;
+    background: rgb(244, 237, 247);
+    transition: 0.5s;
+
+}
+
+.navbar ul li :hover::after{
+    width: 100%;
+}
+
+.HeroText{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: white;
+    animation: herotextanim 2s forwards 3.58s ;
+    left: -100%;
+
+}
+
+.HeroText p{
+    margin: 50px;
+    font-family: 'Bahnschrift Condensed';
+    font-weight: 500;
+    font-size: 100px;
+    
+
+}
+
+@keyframes herotextanim {
+
+    from{
+        left: -100%;
+    }
+
+    to{
+        left: 0%;
+    }
+}
+
+.container{
+    height: 550px;
+    left: 30%;
+    width: 950px;
+    position: absolute;
+    overflow: hidden;
+    
+}
+
+.container img{
+
+    width: 890px;
+    position: relative;
+    bottom: -100%;
+    left: 0%;
+    animation: darkanim 2s forwards 2s ,darkanim2 4s forwards 4s ;
+    
+}
+
+@keyframes darkanim {
+    
+    from{
+
+        bottom: -100%;
+    }
+    to{
+        
+        bottom: 13%;
+    }
+}
+
+@keyframes darkanim2 {
+    0%{
+        opacity: 100%;
+    }
+    15%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+    from{
+        
+        left: 0%;
+        
+    }
+    to{
+        
+        left: 19%;
+           
+    }
+    
+}
+
+.container2{
+    height: 550px;
+    width: 950px;
+    left: 30%;
+    position: absolute;
+    
+    overflow: hidden;
+}
+
+.container2 img{
+    width: 890px;
+    position: relative;
+    left: 15%;
+    bottom: 13%;
+    animation: final 2s forwards 4.2s ;
+    z-index: 1;
+    opacity: 0;
+}
+
+@keyframes final {
+    from{
+        opacity: 0%;
+        left: 15%;
+    }
+    to{
+        opacity: 100%;
+        left: 30%;
+
+    }
+    
+}
+
+
