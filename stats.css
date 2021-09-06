@@ -435,10 +435,11 @@ mark.yo{
 
 
 .gotop{
-    width: 6%;
+    width: 6.5%;
     background: black;
     color: white;
     position: absolute;
+    left: 91.9%;
     transform: translateY(9rem);
     transition: transform 1s ;
     
@@ -450,6 +451,6 @@ mark.yo{
 
 .gotop:hover{
     
-    transform: translateY(8.5rem);
-    width: 6.1%;
+    transform: translateY(7.8rem);
+    width: 6.6%;
 }
