@@ -26,18 +26,18 @@
 }
 
 .logo{
-    width: 60px;
+    width: 3.75rem;
     cursor: pointer;
     position: relative;
-    top: -100px;
+    top: -6.25rem;
     animation: logodrop 2s forwards 3s;
 }
 @keyframes logodrop {
     from{
-        top: -100px;
+        top: -6.25rem;
     }
     to{
-        top: 0px;
+        top: 0rem;
     }
 }
 
@@ -47,23 +47,23 @@
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 2.5rem;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: medium;
     cursor: pointer;
     position: relative;
-    top: -60px;
+    top: -3.75rem;
     animation: navdrop 2s forwards 3s ;
 }
 
 @keyframes navdrop {
     from{
-        top:-60px
+        top:-3.75rem;
     }
     to{
-        top: 0px;
+        top: 0rem;
     }
 }
 
@@ -78,8 +78,8 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px;
-    height: 3px;
+    bottom: -0.313rem;
+    height: 0.188rem;
     width: 0;
     background: #f55d5d;
     transition: 0.5s;
@@ -104,21 +104,21 @@
 }
 
 .HeroText h1{
-    margin: 50px;
+    margin: 3.125rem;
     font-family: 'Bahnschrift Condensed';
     font-weight: 500;
-    font-size: 120px;
-    line-height: 100px;
-    top: 45px;
+    font-size: 7.5rem;
+    line-height: 6.25rem;
+    top: 2.813rem;
     position: relative;
 }
 
 .HeroText p{
-    margin: 50px;
-    font-size: 18px;
+    margin: 3.125rem;
+    font-size: 1.125rem;
     position: relative;
-    top: 10px;
-    left: 6px;
+    top: 0.625rem;
+    left: 0.375rem;
 }
 
 mark.Red{
@@ -140,9 +140,9 @@ mark.Red{
 }
 
 .container{
-    height: 550px;
+    height: 34.375rem;
     left: 30%;
-    width: 950px;
+    width: 59.375rem;
     position: absolute;
     overflow: hidden;
     
@@ -150,7 +150,7 @@ mark.Red{
 
 .container img{
 
-    width: 890px;
+    width: 55.625rem;
     position: relative;
     bottom: -100%;
     left: 0%;
@@ -195,8 +195,8 @@ mark.Red{
 }
 
 .container2{
-    height: 558px;
-    width: 950px;
+    height: 34.875rem;
+    width: 59.375rem;
     left: 30%;
     position: absolute;
     
@@ -204,7 +204,7 @@ mark.Red{
 }
 
 .container2 img{
-    width: 890px;
+    width: 55.625rem;
     position: relative;
     left: 15%;
     bottom: 13%;
@@ -228,29 +228,29 @@ mark.Red{
 
 @keyframes float {
     0%{
-        transform: translateY(0px);
+        transform: translateY(0rem);
     }
 
     50%{
-        transform: translateY(17px);
+        transform: translateY(1.063rem);
     }
 
     100%{
-        transform: translateY(0px);
+        transform: translateY(0rem);
     }
     
 }
 
 button{
-    width: 200px;
+    width: 12.5rem;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
-    margin: 2px 56px;
+    padding: 1.25rem;
+    margin: 0.125rem 3.5rem;
     position: relative;
-    top: -15px;
-    border-radius: 12px;
-    font-size: 19px;
+    top: -0.938rem;
+    border-radius: 0.75rem;
+    font-size: 1.188rem;
     font-weight: bold;
     font-family: sans-serif;
     cursor: pointer;
@@ -263,7 +263,7 @@ span{
     background: #f55d5d;
     width: 0%;
     height: 100%;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     position: absolute;
     left: 0%;
     bottom: 0%;
@@ -273,7 +273,7 @@ span{
 
 button:hover span::after{
     top: 0%;
-    right: -20px;
+    right: -1.25rem;
     transition: 0.5s;
     opacity: 0;
 }
@@ -289,10 +289,11 @@ button:hover{
 
 button:hover span::after{
     top: 0%;
-    right: -20px;
+    right: -1.25rem;
     transition: 0.5s;
     opacity: 0;
 }
+
 
 
 
