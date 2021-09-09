@@ -6,20 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <Title>LandingPage</Title>
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
 <body>
-    <div class="background">
-        <div class="navbar">
+    <div class="background" id="bgimg">
+        <div class="navbar" >
             <img  src="Logo.png" class="logo"  >
             <a href="index.html"></a> 
-            <ul>
+            <ul id="item">
                 <li><a href="#">Home</a></li>
                 <li><a href="stats.html">Stats</a></li>
                 <li><a href="stats.html#last">Doctors</a></li>
                 <li><a href="#">Contact</a></li>
-               
-            </ul> 
-                
+           </ul> 
+               <img id="Hammenu" src="bars-solid.svg" onclick="togglemenu()">
         </div>
             <div class="HeroText">
                 <h1>DOCTORS <br>LIVING GODS</h1>
@@ -30,10 +30,10 @@
                     </a>
                  </div>
             </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up">
                     <img src="chained_Doc.png">; 
                 </div>
-                    <div class="container2">
+                    <div class="container2" data-aos="fade-up">
                         <img src="LandingIllustrationPink_1920.png">
                     </div>
 
@@ -41,7 +41,17 @@
 
 
 
+<script src="index.js"></script>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                    <script>
+                      AOS.init({
+                        offset: 200,
+                        duration: 1000,
+                      }
+
+                      );
+                    </script>
         
 </body>
 
