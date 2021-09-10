@@ -700,13 +700,14 @@ button:hover span::after{
         
         left: -200rem;
         z-index: 4;
+        animation: herotextanim 2s forwards 0.4s ;
         
     }
     
     .HeroText h1{
         overflow: hidden;
-        width: 16rem;
-       
+        width: 16.5rem;
+        
         margin: 3.125rem;
         font-family: 'Bahnschrift Condensed';
         font-weight: 500;
@@ -742,7 +743,7 @@ button:hover span::after{
         position: relative;
         top: -6.25rem;
         left: -8.6rem;
-        animation: logodrop 2s forwards 3s;
+        animation: logodrop 2s forwards 1s;
     }
     @keyframes logodrop {
         from{
@@ -756,7 +757,7 @@ button:hover span::after{
 
     .container{
         height: 34.375rem;
-        background: turquoise;
+        
         left: 30%;
         width: 0rem;
         position: absolute;
@@ -792,7 +793,7 @@ button:hover span::after{
         position: relative;
         left: -3rem;
         bottom: -80rem;
-        animation: final 2s forwards 2.8s,float 6s ease-in-out infinite ;
+        animation: final 2s forwards 0.9s,float 6s ease-in-out infinite ;
         z-index: 1;
         opacity: 100;
         
@@ -870,16 +871,18 @@ button:hover span::after{
         
     }
 
+   
+
     button{
-        width: 6rem;
+        width: 6.5rem;
         overflow: hidden;
         text-align: center;
         padding: 1.25rem;
         margin: 0.125rem 3.5rem;
         position: relative;
-        top: -4.4rem;
+        top: -0.938rem;
         border-radius: 0.75rem;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: bold;
         font-family: sans-serif;
         cursor: pointer;
@@ -888,9 +891,17 @@ button:hover span::after{
         z-index: 1;
     }
 
+    #checkstatbtn{
 
+        display: inline-block;
+        position: relative;
+        padding: 2rem 2.5rem;
+        width: 0.4rem;
+        height: 0.2rem;
+        bottom: 5rem;
+        left: -2.5rem;
 
-
+    }
 
 
 }
