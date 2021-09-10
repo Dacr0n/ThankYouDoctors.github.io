@@ -739,7 +739,7 @@ button:hover span::after{
         cursor: pointer;
         position: relative;
         top: -6.25rem;
-        left: -8.6rem;
+        transform: translateX(10rem);
         animation: logodrop 2s forwards 1s;
     }
     @keyframes logodrop {
