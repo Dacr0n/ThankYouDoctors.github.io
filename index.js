@@ -6,7 +6,7 @@ function togglemenu(){
     if (item.style.right  == "-50rem") 
     {
 
-        item.style.right  = "0rem";
+        item.style.right  = "-2rem";
         
     } 
     else 
